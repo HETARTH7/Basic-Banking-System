@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      BASIC BANKING SYSTEM
+      <h1 style={{ textAlign: "center",paddingTop:"15rem" }}>BASIC BANKING SYSTEM</h1>
     </div>
   );
 };

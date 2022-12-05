@@ -14,7 +14,22 @@ const View = () => {
   return (
     <div>
       <Navbar />
-      <table>
+      {user.map((x, index) => {
+        return (
+          <h1 key={index} style={{ marginLeft: "38rem", paddingTop: "2.5rem" }}>
+            {x.name}'s Information
+          </h1>
+        );
+      })}
+      <table
+        style={{
+          width: "40rem",
+          textAlign: "center",
+          marginLeft: "30rem",
+          marginTop: "2rem",
+        }}
+        className="table"
+      >
         <thead>
           <tr>
             <th>Name</th>

@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 
 const transferSchema = {
-  name: String,
+  sname: String,
+  rname: String,
   amount: Number,
 };
 

@@ -13,7 +13,13 @@ const View = () => {
   return (
     <div>
       <Navbar />
-      <table>
+      <h1 style={{ marginLeft: "38rem", paddingTop: "2.5rem" }}>
+        List of all Customers
+      </h1>
+      <table
+        style={{ width: "40rem", textAlign: "center", marginLeft: "30rem" ,marginTop:"2rem"}}
+        className="table"
+      >
         <thead>
           <tr>
             <th>Sno</th>
